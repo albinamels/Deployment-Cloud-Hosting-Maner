@@ -237,3 +237,53 @@ footer {
 .feat-main i {
   margin-right: 20px;
 }
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+}
+
+.docs-main a {
+  color: var(--text-color);
+  align-items: flex-start;  
+}
+
+.alert {
+  background-color: var(--succes-color);
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-install {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.install {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 150px;
+}
+
+.install:hover {
+  transform: scale(0.95);
+}
+
+.install a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bg-black {
+  color: #fff;
+}
+
+.card-left li {
+  padding: 7px 0;
+  border-bottom: 1px solid lightgrey;
+}
